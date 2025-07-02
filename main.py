@@ -642,7 +642,7 @@ async def extract_fields(file: UploadFile = File(...)):
     }
  
  
-@app.post("/detect-and-extract")
+@app.post("/classify-and-extract")
 async def detect_and_extract(file: UploadFile = File(...)):
     try:
         file_bytes = await file.read()
