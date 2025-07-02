@@ -4,3 +4,4 @@ PyMuPDF
 python-dotenv
 requests
 tiktoken
+python-multipart
